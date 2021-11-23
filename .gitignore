@@ -348,3 +348,5 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+YoloStack/Assets/yolov5.onnx
+YoloStack/Assets/yolov4.onnx
