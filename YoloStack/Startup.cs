@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace YoloV4Stack
+namespace YoloStack
 {
     class Startup
     {
@@ -32,6 +32,15 @@ namespace YoloV4Stack
                         }
                         break;
                     case "/v5/v1/vision/detection":
+                        if (context.Request.Form.Files["image"] != null)
+                        {
+                            var resp = ProcessImage.ProcessV5Image(new Bitmap(context.Request.Form.Files["image"].OpenReadStream()));
+                            context.Response.StatusCode = 200;
+                            context.Response.ContentType = "application/json";
+                            return context.Response.WriteAsync(JsonConvert.SerializeObject(resp));
+                        }
+                        break;
+                    case "/v1/vision/detection":
                         if (context.Request.Form.Files["image"] != null)
                         {
                             var resp = ProcessImage.ProcessV5Image(new Bitmap(context.Request.Form.Files["image"].OpenReadStream()));

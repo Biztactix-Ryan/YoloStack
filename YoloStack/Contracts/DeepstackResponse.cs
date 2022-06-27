@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace YoloV4Stack.Contracts
+namespace YoloStack.Contracts
 {
     public class DeepstackResponse
     {

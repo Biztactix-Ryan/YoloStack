@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30225.117
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32519.379
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YoloV4Stack", "YoloStack\YoloV4Stack.csproj", "{AF99A8E7-9E63-4814-ACC9-3A64EDD030C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YoloStack", "YoloStack\YoloStack.csproj", "{AF99A8E7-9E63-4814-ACC9-3A64EDD030C6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

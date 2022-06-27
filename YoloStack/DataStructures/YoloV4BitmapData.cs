@@ -2,7 +2,7 @@
 using Microsoft.ML.Transforms.Image;
 using System.Drawing;
 
-namespace YoloV4Stack.DataStructures
+namespace YoloStack.DataStructures
 {
     public class YoloV4BitmapData
     {

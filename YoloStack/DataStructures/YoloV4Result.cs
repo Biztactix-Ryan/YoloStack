@@ -1,4 +1,4 @@
-﻿namespace YoloV4Stack.DataStructures
+﻿namespace YoloStack.DataStructures
 {
     public class YoloV4Result
     {

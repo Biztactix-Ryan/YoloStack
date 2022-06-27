@@ -11,7 +11,7 @@ using System.Net;
 using System.Text;
 using static Microsoft.ML.Transforms.Image.ImageResizingEstimator;
 
-namespace YoloV4Stack
+namespace YoloStack
 {
     
     class Program

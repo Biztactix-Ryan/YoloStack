@@ -3,11 +3,11 @@ using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Text;
-using YoloV4Stack.Contracts;
-using YoloV4Stack.DataStructures;
+using YoloStack.Contracts;
+using YoloStack.DataStructures;
 using static Microsoft.ML.Transforms.Image.ImageResizingEstimator;
 
-namespace YoloV4Stack
+namespace YoloStack
 {
     public class ProcessImage
     {
